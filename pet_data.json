@@ -1,0 +1,14 @@
+{
+    "maww": {
+        "hunger": 70,
+        "energy": 80,
+        "happy": 50,
+        "health": 100
+    },
+    "miawww": {
+        "hunger": 70,
+        "energy": 80,
+        "happy": 50,
+        "health": 100
+    }
+}
