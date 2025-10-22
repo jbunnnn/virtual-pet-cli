@@ -1,13 +1,13 @@
 # 🐾 Virtual Pet CLI v2
 
-### 👨‍💻 Kelompok:
+### Kelompok:
 - Rajib Zidan  
 - Thorik  
 - Fauzan  
 
 ---
 
-## 📘 Deskripsi
+## Deskripsi
 **Virtual Pet CLI v2** adalah program berbasis terminal yang memungkinkan pengguna untuk memelihara hewan virtual secara interaktif.  
 Pengguna dapat membuat, memberi makan, mengajak bermain, menyembuhkan, dan menidurkan peliharaan mereka lewat perintah sederhana di Command Line Interface (CLI).
 
@@ -15,7 +15,7 @@ Proyek ini dikembangkan untuk memenuhi tugas **Project Akhir Mata Kuliah Pemrogr
 
 ---
 
-## 🧩 Fitur Utama
+## Fitur Utama
 | Perintah | Fungsi |
 |-----------|---------|
 | `create [nama]` | Membuat hewan baru |
@@ -30,19 +30,18 @@ Proyek ini dikembangkan untuk memenuhi tugas **Project Akhir Mata Kuliah Pemrogr
 | `exit` | Keluar dari program 🐾 |
 
 ---
-
-## ⚙️ Struktur Project
-virtual-pet-cli/
-├── main.py # File utama (CLI dan command handler)
-├── pet_manager.py # Class utama untuk mengatur logika hewan
-├── data_handler.py # Menangani load & save data JSON
-├── pet_data.json # Tempat penyimpanan data peliharaan
-└── README.md # Dokumentasi project
+## virtual-pet-cli/
+│
+├── main.py           # File utama (CLI dan command handler)
+├── pet_manager.py    # Class utama untuk mengatur logika hewan
+├── data_handler.py   # Menangani load & save data JSON
+├── pet_data.json     # Tempat penyimpanan data peliharaan
+└── README.md         # Dokumentasi project
 
 
 ---
 
-## 💡 Teknologi & Library yang Digunakan
+## Library yang Digunakan
 | Library | Fungsi |
 |----------|---------|
 | `colorama` | Memberikan warna pada teks di terminal |
@@ -52,7 +51,7 @@ virtual-pet-cli/
 
 ---
 
-## 🚀 Cara Menjalankan Program
+## Cara Menjalankan Program
 1. **Pastikan Python sudah terinstal**  
    Versi yang disarankan: **Python 3.10+**
 
