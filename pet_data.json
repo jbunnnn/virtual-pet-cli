@@ -3,12 +3,40 @@
         "hunger": 70,
         "energy": 80,
         "happy": 50,
-        "health": 100
+        "health": 100,
+        "level": 1,
+        "exp": 0
     },
     "miawww": {
         "hunger": 70,
         "energy": 80,
         "happy": 50,
-        "health": 100
+        "health": 100,
+        "level": 1,
+        "exp": 0
+    },
+    "miaw": {
+        "hunger": 50,
+        "energy": 50,
+        "happy": 50,
+        "health": 100,
+        "level": 1,
+        "exp": 0
+    },
+    "miaww": {
+        "hunger": 80,
+        "energy": 80,
+        "happy": 50,
+        "health": 100,
+        "level": 1,
+        "exp": 40
+    },
+    "rorr": {
+        "hunger": 95,
+        "energy": 90,
+        "happy": 100,
+        "health": 100,
+        "level": 2,
+        "exp": 10
     }
 }
