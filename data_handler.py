@@ -1,17 +1,18 @@
 # data_handler.py
-import json, os
+import json
+import os
 
 DATA_FILE = "pet_data.json"
 
 def load_data():
     if not os.path.exists(DATA_FILE):
         return {}
-    with open(DATA_FILE, "r") as f:
+    with open(DATA_FILE, "r", encoding="utf-8") as f:
         try:
             return json.load(f)
-        except:
+        except Exception:
             return {}
 
 def save_data(data):
-    with open(DATA_FILE, "w") as f:
-        json.dump(data, f, indent=4)
+    with open(DATA_FILE, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=4, ensure_ascii=False)
